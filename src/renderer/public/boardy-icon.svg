@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Boardy app icon">
+  <rect width="96" height="96" rx="24" fill="#2A6FDB"></rect>
+  <g transform="translate(10.56 10.56) scale(1.1700)">
+    <rect x="14" y="14" width="11" height="36" rx="5.5" fill="#FFFFFF"></rect>
+    <path d="M33 14 h9 a8 8 0 0 1 0 16 h-9 a4 4 0 0 1 -4 -4 v-8 a4 4 0 0 1 4 -4 Z" fill="#FFFFFF"></path>
+    <path d="M33 34 h9 a8 8 0 0 1 0 16 h-9 a4 4 0 0 1 -4 -4 v-8 a4 4 0 0 1 4 -4 Z" fill="#FFFFFF"></path>
+  </g>
+</svg>

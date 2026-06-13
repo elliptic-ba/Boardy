@@ -1,0 +1,32 @@
+appId: app.boardy.desktop
+productName: Boardy
+directories:
+  buildResources: build
+  output: dist
+files:
+  - out/**/*
+  - package.json
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!electron.vite.config.ts'
+  - '!{.eslintrc,.prettierrc,tsconfig.json,tsconfig.node.json,tsconfig.web.json}'
+asarUnpack:
+  - '**/node_modules/better-sqlite3-multiple-ciphers/**'
+extraResources:
+  # ship the icon so the BrowserWindow can set it at runtime (X11 _NET_WM_ICON)
+  - from: build/icon.png
+    to: icon.png
+linux:
+  target:
+    - AppImage
+  category: Office
+  icon: build/icon.png
+  maintainer: boardy
+  synopsis: Local encrypted block-based workspace
+  # name the .desktop file + StartupWMClass after package.json "desktopName" so
+  # the desktop environment links the running window to this entry (and its icon)
+  syncDesktopName: true
+npmRebuild: true
+afterPack: ./scripts/afterPack.js
+electronLanguages:
+  - en-US

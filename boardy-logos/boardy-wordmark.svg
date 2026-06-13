@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="64" viewBox="0 0 232 64" role="img" aria-label="boardy">
+  <g transform="translate(0 0)">
+    <rect x="14" y="14" width="11" height="36" rx="5.5" fill="#2A6FDB"></rect>
+    <path d="M33 14 h9 a8 8 0 0 1 0 16 h-9 a4 4 0 0 1 -4 -4 v-8 a4 4 0 0 1 4 -4 Z" fill="#2A6FDB"></path>
+    <path d="M33 34 h9 a8 8 0 0 1 0 16 h-9 a4 4 0 0 1 -4 -4 v-8 a4 4 0 0 1 4 -4 Z" fill="#2A6FDB"></path>
+  </g>
+  <text x="78" y="44" font-family="&#39;Hanken Grotesk&#39;,&#39;Segoe UI&#39;,system-ui,-apple-system,sans-serif" font-size="42" font-weight="600" letter-spacing="-0.02em" fill="#16181D">boardy</text>
+</svg>
